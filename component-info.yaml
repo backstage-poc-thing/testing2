@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Testing2"
+  description: "Testing this"
+  annotations:
+    github.com/project-slug: "test/testing2"
+    backstage.io/techdocs-ref: dir:./
+  tags:
+    - dotnet
+    - api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Kthinnes1"
